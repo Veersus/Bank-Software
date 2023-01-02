@@ -1,4 +1,4 @@
-acc = {"H":100,"He":400,"Li":600,"Be":900,"B":1100,"C":1200,"N":1400,"O":1600,"F":1900,"Ne":2000}
+acc = {"H":100,"He":400,"Li":600,"Be":900,"B":1100,"C":1200,"N":1400,"O":1600,"F":1900,"Ne":2000,"Na":2300,"Mg":2400}
 
 print(" Welcome to this atomic bank \n But you are gonna see awesome software.\n::\n show account:A,create account:B,delete account:C,")
 
@@ -52,9 +52,11 @@ for e in range(4):
                 account_shower("F",9)
             if m == "Ne":
                 account_shower("Ne",10)
+            if m == "Na":
+                account_shower("Na",11)
+            if m == "Mg":
+                account_shower("Mg",12)
             
-                
-       
     if s == "B" or s == "b":
         print("create a atomic account except {} this accounts".format(acc.keys))        
         g = input("enter the name of account: ")
